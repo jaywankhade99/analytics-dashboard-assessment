@@ -1,0 +1,121 @@
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.filter select,
+.filter button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.metric-card {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 30%;
+}
+
+.metric-card h2 {
+  margin-bottom: 10px;
+}
+
+.charts {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.chart {
+  width: 45%;
+}
+.table-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.data-table th,
+.data-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.data-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  margin: 0 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+.details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.details h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.details p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.details li {
+  margin-bottom: 5px;
+}
