@@ -19,6 +19,10 @@ const Details = () => {
           <li>Analyze the types of EVs and their electric range.</li>
           <li>Explore geographical distribution and price insights.</li>
           <li>Filter data based on specific criteria for detailed analysis.</li>
+          <li>
+            The graph, chart and table will be modified with filtered data
+            respectively
+          </li>
         </ul>
       </p>
       <p>
