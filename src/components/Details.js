@@ -4,7 +4,7 @@ import "../App.css";
 const Details = () => {
   return (
     <div className="details">
-      <h2>Electric Vehicle Population Dashboard</h2>
+      <h2>Electric Vehicles Population Data Analysis</h2>
       <p>
         This dashboard provides insights into the population of electric
         vehicles (EVs) across various regions. The data includes information on
